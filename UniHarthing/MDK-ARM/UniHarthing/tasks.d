@@ -1,0 +1,16 @@
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+uniharthing\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+uniharthing\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+uniharthing\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+uniharthing\tasks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uniharthing\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+uniharthing\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

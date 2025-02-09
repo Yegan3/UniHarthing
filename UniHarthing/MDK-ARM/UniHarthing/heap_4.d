@@ -1,0 +1,13 @@
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+uniharthing\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+uniharthing\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+uniharthing\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uniharthing\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+uniharthing\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

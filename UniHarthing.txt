@@ -1,0 +1,39 @@
+创建工程
+1select mcu
+
+2选型 stm32f104c8t6
+
+3配置时钟
+“SystemCore”的“RCC”处选择外部高速时钟源和低速时钟源（Crystal~）
+
+sys-》debug（serial wire）  tim4
+
+时钟配置界面：f130最高72 在hclk设置72 回车
+
+4配置gpio
+gpio控制pc13（板内灯）：点到pc13位置 然后gpio output
+
+5开freertos
+freertos开v2版本 其他全默认
+
+6添加任务
+有一个默认任务 保持全默认
+
+7工程设置
+工程 位置 ide版本（mdk 5.32）
+0x200 这些是栈大小 给main函数用的
+
+code gener
+1 1（所有的库复制到工程目录）
+2     1（每个外设都有.C.H文件 不勾选就只有c） 34（默认）
+
+生成 yes
+默认任务里面for添加 删掉os1 cube版本调低
+ HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,GPIO_PIN_RESET);
+		osDelay(500);
+		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,GPIO_PIN_SET);
+		osDelay(500);
+
+
+
+

@@ -1,0 +1,12 @@
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+uniharthing\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+uniharthing\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+uniharthing\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uniharthing\list.o: ../Core/Inc/FreeRTOSConfig.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+uniharthing\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
